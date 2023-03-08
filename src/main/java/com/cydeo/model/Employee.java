@@ -17,6 +17,7 @@ public class Employee {
     @NotBlank //this annotation covare also @NotNull and @NotEmpty
     @Size(max = 12,min = 2)
     private String firstName;
+    @NotBlank
     private String lastName;
 
     //Thymeleaf accepts yyyy-MM-dd, but LocalDate accepts mm-dd-yyyy
